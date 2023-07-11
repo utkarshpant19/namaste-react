@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react-course",
+  "version": "1.0.0",
+  "description": "Namaste React by Akshay Saini",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarshpant19/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "Utkarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utkarshpant19/namaste-react/issues"
+  },
+  "homepage": "https://github.com/utkarshpant19/namaste-react#readme",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "broswerslist": [
+    "last 5 versions"
+  ],
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

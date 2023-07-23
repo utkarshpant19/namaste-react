@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, skyblue, rgb(232, 219, 222));
+}
+
+.left{
+    margin-left: 40px;
+}
+
+.right{
+    margin: 10px 40px 10px ;
+}
+
+.center input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.center i{
+    margin-left: 10px;
+}
+.center:hover,.center:active, .center:focus{
+    cursor: pointer;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.center i:hover{
+    cursor: pointer;
+}
+
+
+

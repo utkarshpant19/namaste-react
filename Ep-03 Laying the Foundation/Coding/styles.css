@@ -1,45 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(45deg, skyblue, rgb(232, 219, 222));
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, skyblue, rgb(232, 219, 222));
 }
 
-.left{
-    margin-left: 40px;
+.left {
+  margin-left: 40px;
 }
 
-.right{
-    margin: 10px 40px 10px ;
+.right {
+  margin: 10px 40px 10px;
 }
 
-.center input{
-    width: 400px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
+.center input {
+  width: 20rem;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.center i{
-    margin-left: 10px;
+.center i {
+  margin-left: 10px;
 }
-.center:hover,.center:active, .center:focus{
-    cursor: pointer;
-}
-
-img:hover{
-    cursor: pointer;
+.center:hover,
+.center:active,
+.center:focus {
+  cursor: pointer;
 }
 
-.center i:hover{
-    cursor: pointer;
+img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
+.center i:hover {
+  cursor: pointer;
+}
 
+@media screen and (max-width: 770px) {
+  .center input {
+    width: 200px;
+    transition: all 100ms ease-in-out;
+  }
+}
 
+@media screen and (max-width: 500px) {
+  .left {
+    margin-left: 20px;
+  }
+
+  .left img {
+    margin: 10px 10x 0 10px;
+  }
+
+  .right img {
+    margin: 5px 20x 5px;
+  }
+
+  .center{
+    margin-left: 30px;
+  }
+
+  .center input {
+    width: 100px;
+    transition: all 100ms ease;
+    
+  }
+}
+
+@media screen and (max-width: 325px) {
+    
+    .center input{
+        width:70px;
+        transition: all 1sec ease;
+    }
+}

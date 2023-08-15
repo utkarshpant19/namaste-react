@@ -103,8 +103,8 @@ import MyComponent , {MyComponent2} from 'MyComponent`;
 A: `config.js` files are essentially editable text files that contain information required for the successful operation of a program. The files are structured in a particular way, formatted to be user configurable. Most of the computer programs we use: whether office suites, web browsers, even video games are configured via menu interfaces. Configuration files are very simple in structure. For instance, if you were to write an application, and the only thing it ever needed to know was its user's preferred name, then its one and only config file could contain exactly one word: the name of the user. For example:
 
 ```
-NAME='Chetan'
-SURNAME='Nada'
+NAME='Utkarsh'
+SURNAME='Pant'
 ```
 
 ## Q: What are `React Hooks?`

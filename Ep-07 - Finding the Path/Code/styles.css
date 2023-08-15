@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-container > img {
+  width: 150px;
+  transition: all 200ms ease-in;
+}
+.logo-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid orange;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items > li {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.1em;
+}
+
+.nav-items > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.nav-items li a:hover {
+  color: orange;
+}
+
+.search-container {
+  margin: 1.5rem;
+}
+
+.res-card {
+  padding: 10px;
+  margin: 10px;
+  width: 15rem;
+  transition: all 100ms ease;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card:hover {
+  transform: scale(0.9);
+}
+
+.res-logo {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.res-details {
+  margin-left: 1em;
+}
+
+.search-container input {
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.shimmer-card {
+  width: 15rem;
+  height: 15rem;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  margin: 0 10px;
+}
+
+.res-menu-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  margin: 10px auto;
+}
+
+.dish-card {
+  display: flex;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  width: 50vw;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.dish-card:last-child {
+  border-bottom: none;
+}
+
+.dish-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.dish-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.dish-desc {
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+
+.dish-price::before {
+  content: "Rs ";
+}
+.category {
+  width: 50vw;
+  margin: 10px auto;
+}
+
+.dish-details {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
